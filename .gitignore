@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environment / uv
+.venv/
+venv/
+
+# Local database (regenerate with the seed generator)
+sentinel.db
+sentinel.db-wal
+sentinel.db-shm
+*.db
+*.db-wal
+*.db-shm
+
+# Secrets
+.env
+.env.local
+*.pem
+
+# Local artefacts
+shots/
+*.log
+.DS_Store
+Thumbs.db
